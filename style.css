@@ -70,3 +70,19 @@ img {
   height: 17px;
   width: 17px;
 }
+
+.trend{
+  text-decoration: none;
+  list-style: none;
+  float: inline-end;
+  /* display: flex; */
+  padding-top: 0px;
+  background-color: #ff7337;
+  height: 30px;
+}
+
+.trend-search a{
+  /* flex-basis: content; */
+  text-justify: auto;
+  /* flex-direction: column; */
+}

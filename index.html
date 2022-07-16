@@ -5,18 +5,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Yantramanav:wght@100;300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Roboto:wght@300&family=Yantramanav:wght@100;300&display=swap"
       rel="stylesheet"
     />
-    />
   </head>
+
   <body>
-    <div class="topnav">
+    <div class="topnav-container">
       <div class="topnav-left">
-        <a href="#center">Center</a>
+        <a href="#center">Seller Centre</a>
         <a href="#sell">Sell</a>
         <a href="#download">Download</a>
-        <a href="#follow">Follow</a>
+        <a href="#follow" >Follow</a>
+        <img class="svg" src="images/facebook-svgrepo-com.svg" alt="fb svg">
+        <img class="svg" src="images/instagram-svgrepo-com.svg" alt="ig svg">
       </div>
       <div class="topnav-right">
         <a href="#notification">Notifications</a>
@@ -26,16 +28,15 @@
       </div>
     </div>
 
-
-    <div>
-      <img src="images/shopna.png" alt="shop na logo" />
+    <div class="bottomnav-container">
+      <img src="images/shopping.png" alt="shop na logo" />
       <div class="search-container">
-        <input type="text" placeholder="Search.." name="search" />
-        <button type="submit"></button>
+        <input type="text" class="searchbox" placeholder="Search.." />
       </div>
+      <button type="submit" class="searchBtn"></button>
     </div>
-    
-    <div>
+
+    <div class="trend">
       <ul class="trend-search">
         <li><a href="#dress">Dress</a></li>
         <li><a href="#croptop">Croptop</a></li>
